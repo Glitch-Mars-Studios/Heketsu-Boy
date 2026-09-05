@@ -1,0 +1,294 @@
+Heketsu Boy SOURCE & MODDING LICENSE
+
+Version 1.0 — 09-05-2026
+
+Copyright © 2026 GlitchMars. All rights reserved.
+
+1. Purpose
+
+This License governs the use of the source code, assets, and other materials belonging to Heketsu Boy (the “Project”).
+
+The Project is made publicly available to allow people to view, study, modify, and create Mods for the Project.
+
+The Project Owner retains ownership of the Project and its original materials.
+
+This License is intended to encourage community modification and mod development while preserving the Project Owner's ownership and control of the official Project.
+
+2. Definitions
+
+“Project Owner” means GlitchMars.
+
+“Project” means Heketsu Boy, including its official source code, assets, documentation, data, and other materials made available by the Project Owner.
+
+“Official Repository” means the repository or repositories designated by the Project Owner as the official source of the Project.
+
+“Project Materials” means code, assets, artwork, models, textures, audio, music, documentation, data, designs, and other materials owned by the Project Owner and distributed as part of the Project.
+
+“Mod” means a modification, extension, addition, replacement, or other derivative work created for or in connection with the Project.
+
+“Modified Material” means original work created by a Mod creator that modifies, extends, or adds to Project Materials.
+
+“Contributor” means a person or entity that submits material for inclusion in the Official Repository.
+
+“Contribution” means code, assets, artwork, documentation, data, or other material intentionally submitted by a Contributor for inclusion in the Official Repository.
+
+3. Ownership of the Project
+
+The Project Owner retains all ownership and intellectual property rights in the Project Materials.
+
+Making Project Materials publicly available does not transfer ownership of those materials to any recipient.
+
+The Project Owner retains all rights not expressly granted by this License.
+
+Nothing in this License grants any person ownership of the Project as a whole.
+
+4. Viewing and Studying the Project
+
+Anyone may access and view publicly available Project Materials for purposes including:
+
+learning;
+studying;
+research;
+education;
+understanding how the Project works; and
+developing Mods.
+
+Viewing or studying the Project does not transfer ownership of the Project Materials.
+
+5. Modding
+
+The Project Owner expressly permits and encourages Mods.
+
+Anyone may create Mods for the Project using Project Materials, subject to the terms of this License.
+
+Mods may include modifications to existing files, new files, replacement files, scripts, code, assets, plugins, patches, or other material intended to alter or extend the Project.
+
+Mod creators retain ownership of their own original creative work contained in their Mods, subject to the ownership rights of the Project Owner in the underlying Project Materials.
+
+6. Ownership of Modifications
+
+The Project Owner retains ownership of the original Project Materials contained within a Mod.
+
+A Mod creator owns the copyright in original material they independently create and add to the Project, to the extent permitted by applicable law.
+
+For example, if a Mod creator modifies a Project-owned source file, the Project Owner continues to own the original Project code while the Mod creator owns their original modifications to that code.
+
+Creating a Mod does not transfer ownership of the Project or its original materials to the Mod creator.
+
+Likewise, modifying a Project-owned file does not cause the Mod creator to acquire ownership of the original Project material contained within that file.
+
+7. Distribution of Mods
+
+Mods may be distributed publicly, including for commercial purposes, provided that the distribution complies with this License and applicable law.
+
+A Mod creator must not represent their Mod as an official release of the Project unless expressly authorized by the Project Owner.
+
+A Mod creator must not falsely claim ownership of Project Materials.
+
+A Mod creator may identify their Mod as a modification for Heketsu Boy for purposes of compatibility and description.
+
+8. Complete Versions and Forks
+
+This License permits Mods but does not grant permission to create or distribute an unofficial complete version of the Project.
+
+You may not distribute a modified or forked version of the complete Project that incorporates substantial Project Materials as a separate competing version of the Project unless the Project Owner has expressly authorized it.
+
+This restriction does not prohibit:
+
+Mods;
+patches;
+plugins;
+extensions;
+replacement files;
+compatibility tools;
+original software that interacts with the Project; or
+other modifications permitted by this License.
+9. Project Name and Branding
+
+This License does not grant ownership of or unrestricted rights to the Project's name, logos, trademarks, or other branding.
+
+Mods may refer to the Project for purposes of identification and compatibility.
+
+Such references must not imply that the Mod is official, endorsed, sponsored, or produced by the Project Owner unless expressly authorized.
+
+10. Contributions to the Official Repository
+
+Contributions to the Official Repository are subject to this Section.
+
+By submitting a Contribution for inclusion in the Official Repository, the Contributor agrees to the terms of this License.
+
+The Contributor retains ownership and copyright in their Contribution unless otherwise agreed in writing.
+
+However, once a Contribution is accepted into the Official Repository, the Contributor grants the Project Owner the permanent rights described below.
+
+11. Permanent License for Contributions
+
+For every Contribution accepted into the Official Repository, the Contributor grants the Project Owner a:
+
+worldwide, perpetual, irrevocable, royalty-free, non-exclusive license
+
+to use the Contribution as part of the Project.
+
+This license includes the right to:
+
+reproduce the Contribution;
+modify the Contribution;
+create derivative works from the Contribution;
+incorporate the Contribution into the Project;
+combine it with other Project Materials;
+distribute it;
+publicly display or perform it;
+sublicense it;
+commercially exploit it as part of the Project;
+create future versions of the Project;
+create updates, expansions, ports, editions, and successor versions;
+maintain historical versions containing the Contribution; and
+otherwise use the Contribution in connection with the Project.
+
+The Project Owner does not need to obtain additional permission from the Contributor to exercise these rights.
+
+12. No Withdrawal of Contributions
+
+Once a Contribution has been accepted into the Official Repository, the Contributor may not revoke or withdraw the license granted to the Project Owner.
+
+The Contributor may not require the Project Owner to remove the Contribution or stop using it because the Contributor:
+
+leaves the Project;
+stops contributing;
+disagrees with the direction of the Project;
+changes their mind about the Contribution;
+deletes their own copy;
+publishes the Contribution elsewhere; or
+otherwise ceases participating in the Project.
+
+The Project Owner may remove a Contribution if it chooses to do so, but is not required to remove it at the Contributor's request.
+
+The Project Owner may continue using the Contribution in existing and future versions of the Project.
+
+13. Contributor's Right to Reuse Their Own Work
+
+The license granted to the Project Owner is non-exclusive.
+
+A Contributor retains the right to use, modify, publish, license, distribute, and otherwise reuse their own Contribution.
+
+The Contributor may use their own Contribution in other projects, including commercial projects.
+
+However, the Contributor's continued ownership and reuse of their Contribution does not revoke, restrict, or invalidate the rights previously granted to the Project Owner.
+
+The Contributor cannot take a Contribution back from the Project after it has been accepted into the Official Repository.
+
+14. Future Relicensing
+
+The Project Owner may change the license under which the Project is distributed in the future.
+
+The Project Owner may release future versions of the Project under a different license without obtaining additional permission from Contributors whose Contributions have already been accepted.
+
+The Project Owner may sublicense or relicense Contributions as part of the Project, provided that doing so remains within the rights granted under this License.
+
+A Contributor's subsequent change of mind does not prevent the Project Owner from exercising these rights.
+
+15. Modifications by the Project Owner
+
+The Project Owner may modify, replace, remove, restructure, combine, or otherwise alter any Contribution incorporated into the Project.
+
+The Project Owner is not required to preserve a Contribution in its original form.
+
+The Project Owner may combine Contributions with other Project Materials and create derivative works from them.
+
+16. Third-Party Material
+
+Contributors and Mod creators must not knowingly submit or distribute material that they do not have the legal right to use.
+
+Third-party code, assets, libraries, artwork, music, fonts, or other material remain subject to their respective licenses.
+
+A Contributor must disclose known third-party material included in a Contribution.
+
+The Project Owner may reject a Contribution containing third-party material whose license is incompatible with the Project.
+
+Nothing in this License transfers ownership of third-party material to the Project Owner.
+
+17. Contributor Representations
+
+By submitting a Contribution, the Contributor represents that:
+
+They own the Contribution or have sufficient rights to grant the license described in this License.
+They have the authority to submit the Contribution.
+The Contribution does not knowingly infringe another person's intellectual property rights.
+They have disclosed known third-party material.
+They are not knowingly violating an agreement with an employer, client, or other party by submitting the Contribution.
+18. Moral Rights
+
+To the extent permitted by applicable law, the Contributor agrees not to assert moral rights or similar rights in a manner that prevents or restricts the Project Owner from exercising the rights granted by this License.
+
+Where such rights cannot legally be waived, the Contributor grants all permissions and consents that may lawfully be granted to allow the Project Owner to exercise the rights described in this License.
+
+19. No Obligation to Accept Contributions
+
+Submitting a Contribution does not require the Project Owner to accept or use it.
+
+The Project Owner may accept, reject, modify, remove, replace, or archive Contributions at its discretion.
+
+Removal of a Contribution by the Project Owner does not terminate the rights granted under this License.
+
+20. No Ownership of the Project Through Contribution
+
+Contributing to the Official Repository does not grant the Contributor ownership or control of:
+
+the Project;
+the Official Repository;
+the Project's original code;
+the Project's original assets;
+the Project's trademarks or branding; or
+any other Project Materials owned by the Project Owner.
+
+A Contributor's ownership of their individual Contribution does not create an ownership interest in the Project as a whole.
+
+21. Survival
+
+The rights granted under this License survive:
+
+the Contributor leaving the Project;
+the Contributor ceasing to contribute;
+the Contributor deleting their account;
+changes in Project ownership;
+changes to the Project's licensing;
+discontinuation of the Project; and
+discontinuation of the Official Repository.
+
+The rights granted to the Project Owner are intended to remain perpetual and irrevocable to the maximum extent permitted by applicable law.
+
+22. No Warranty
+
+The Project and Project Materials are provided “AS IS”, to the maximum extent permitted by applicable law.
+
+The Project Owner makes no warranties regarding the Project, including warranties of merchantability, fitness for a particular purpose, availability, accuracy, or non-infringement.
+
+23. Limitation of Liability
+
+To the maximum extent permitted by applicable law, the Project Owner shall not be liable for damages arising from the use, modification, distribution, or inability to use the Project or any Mod.
+
+Nothing in this License excludes or limits liability that cannot legally be excluded or limited.
+
+24. Termination
+
+If you materially violate this License, the permissions granted to you under this License may terminate.
+
+Termination does not transfer ownership of Project Materials to you.
+
+Termination does not affect rights already granted to the Project Owner by Contributors under Section 11.
+
+25. Reservation of Rights
+
+All rights not expressly granted by this License are reserved by the Project Owner.
+
+Nothing in this License shall be interpreted as transferring ownership of the Project or Project Materials except where expressly stated.
+
+26. Acceptance
+
+By accessing, modifying, distributing, or contributing to the Project, you acknowledge that you have read and understood this License.
+
+By submitting a Contribution to the Official Repository, you expressly agree to the Contribution terms contained in Sections 10–21.
+
+If you do not agree to these terms, you may not submit a Contribution to the Official Repository.
+
+Copyright © 2026 GlitchMars. All rights reserved.
