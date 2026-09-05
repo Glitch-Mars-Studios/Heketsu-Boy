@@ -1,3 +1,2 @@
-# Hekestu-Boy
-The entire repository for Hekestu Boy and controlling it's versions
-man this chicken sandwich is so soggy... salami
+# Heketsu-Boy
+The entire repository for Heketsu Boy and controlling it's versions, please read the license first before thinking you can steal. -Glitch
