@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://cc3jk7km6yslv"]
+
+[ext_resource type="Script" uid="uid://ccvdt5t1jv3c2" path="res://main_menu/scripts/main_menu.gd" id="1_u584x"]
+
+[node name="main_menu" type="Control" unique_id=1136488015 node_paths=PackedStringArray("new_game_btn", "load_btn", "options_btn", "quit_btn")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_u584x")
+new_game_btn = NodePath("btn_container/new_game_btn")
+load_btn = NodePath("btn_container/load_btn")
+options_btn = NodePath("btn_container/options_btn")
+quit_btn = NodePath("btn_container/quit_btn")
+
+[node name="btn_container" type="VBoxContainer" parent="." unique_id=1308840259]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -46.5
+offset_top = -68.0
+offset_right = 46.5
+offset_bottom = 68.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="new_game_btn" type="Button" parent="btn_container" unique_id=681122842]
+layout_mode = 2
+text = "New Game"
+
+[node name="load_btn" type="Button" parent="btn_container" unique_id=1862260952]
+layout_mode = 2
+text = "Load"
+
+[node name="options_btn" type="Button" parent="btn_container" unique_id=36802837]
+layout_mode = 2
+text = "Options"
+
+[node name="quit_btn" type="Button" parent="btn_container" unique_id=1207521430]
+layout_mode = 2
+text = "Quit"
