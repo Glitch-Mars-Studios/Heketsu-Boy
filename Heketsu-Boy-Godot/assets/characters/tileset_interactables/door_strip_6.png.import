@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dn6igtkh0ncki"
-path="res://.godot/imported/Door_strip6.png-120b257cf22beb63fdca3eb6c3b601ad.ctex"
+path="res://.godot/imported/door_strip_6.png-77c749460d210bb1284f267c9e37471a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GameBranch/Characters/Tileset Interactables/Door_strip6.png"
-dest_files=["res://.godot/imported/Door_strip6.png-120b257cf22beb63fdca3eb6c3b601ad.ctex"]
+source_file="res://assets/characters/tileset_interactables/door_strip_6.png"
+dest_files=["res://.godot/imported/door_strip_6.png-77c749460d210bb1284f267c9e37471a.ctex"]
 
 [params]
 

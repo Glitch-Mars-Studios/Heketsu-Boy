@@ -1,3 +1,4 @@
+# Using this class to store enums that may need to be accessed from anywhere
 class_name Enums
 
 enum FacingDirection{

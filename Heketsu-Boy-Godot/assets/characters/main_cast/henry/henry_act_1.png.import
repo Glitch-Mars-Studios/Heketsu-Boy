@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d14xje2bym7ql"
-path="res://.godot/imported/Harold_MutatedDaisy.png-ea6b0985351c762613a3e1a57d6815b2.ctex"
+uid="uid://esg4131ikdj6"
+path="res://.godot/imported/henry_act_1.png-a639fb577f1fb44d27618d35d8aae2fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GameBranch/Characters/Main Cast/Harold/Harold_MutatedDaisy.png"
-dest_files=["res://.godot/imported/Harold_MutatedDaisy.png-ea6b0985351c762613a3e1a57d6815b2.ctex"]
+source_file="res://assets/characters/main_cast/henry/henry_act_1.png"
+dest_files=["res://.godot/imported/henry_act_1.png-a639fb577f1fb44d27618d35d8aae2fa.ctex"]
 
 [params]
 
