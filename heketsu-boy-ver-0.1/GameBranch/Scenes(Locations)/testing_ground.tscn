@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://dn6igtkh0ncki" path="res://GameBranch/Characters/Tileset Interactables/Door_strip6.png" id="3_l0nbk"]
 [ext_resource type="Texture2D" uid="uid://esg4131ikdj6" path="res://GameBranch/Characters/Main Cast/Henry/Henry_Act1.png" id="4_kxd7i"]
 [ext_resource type="Texture2D" uid="uid://7wnw3b4eemeb" path="res://icon.svg" id="5_oaxek"]
+[ext_resource type="PackedScene" uid="uid://r8ibxmyfjevp" path="res://player.tscn" id="6_dkgfw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xtcy0"]
 atlas = ExtResource("2_dkgfw")
@@ -396,3 +397,6 @@ Or make your code open source"
 z_index = -1
 position = Vector2(15, -385)
 texture = ExtResource("5_oaxek")
+
+[node name="Player" parent="." unique_id=719307870 instance=ExtResource("6_dkgfw")]
+position = Vector2(32, 64)
