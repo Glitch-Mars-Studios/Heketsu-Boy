@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cl6gfwxjw8pdp"
-path="res://.godot/imported/Daisy (1).png-59367631eebeec2725fdea4370f6e3a7.ctex"
+uid="uid://d14xje2bym7ql"
+path="res://.godot/imported/harold_mutated_daisy.png-a651f5cd7227b31d44bf02e44862c706.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GameBranch/Characters/Main Cast/Harold/Daisy (1).png"
-dest_files=["res://.godot/imported/Daisy (1).png-59367631eebeec2725fdea4370f6e3a7.ctex"]
+source_file="res://assets/characters/main_cast/harold/harold_mutated_daisy.png"
+dest_files=["res://.godot/imported/harold_mutated_daisy.png-a651f5cd7227b31d44bf02e44862c706.ctex"]
 
 [params]
 

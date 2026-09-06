@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://dcdb4paulp8fs"]
 
-[ext_resource type="Texture2D" uid="uid://cl6gfwxjw8pdp" path="res://GameBranch/Characters/Main Cast/Harold/Daisy (1).png" id="1_yq3b0"]
-[ext_resource type="Texture2D" uid="uid://d14xje2bym7ql" path="res://GameBranch/Characters/Main Cast/Harold/Harold_MutatedDaisy.png" id="2_dkgfw"]
-[ext_resource type="Texture2D" uid="uid://dn6igtkh0ncki" path="res://GameBranch/Characters/Tileset Interactables/Door_strip6.png" id="3_l0nbk"]
-[ext_resource type="Texture2D" uid="uid://esg4131ikdj6" path="res://GameBranch/Characters/Main Cast/Henry/Henry_Act1.png" id="4_kxd7i"]
+[ext_resource type="Texture2D" uid="uid://cl6gfwxjw8pdp" path="res://assets/characters/main_cast/harold/daisy.png" id="1_yq3b0"]
+[ext_resource type="Texture2D" uid="uid://d14xje2bym7ql" path="res://assets/characters/main_cast/harold/harold_mutated_daisy.png" id="2_dkgfw"]
+[ext_resource type="Texture2D" uid="uid://dn6igtkh0ncki" path="res://assets/characters/tileset_interactables/door_strip_6.png" id="3_l0nbk"]
+[ext_resource type="Texture2D" uid="uid://esg4131ikdj6" path="res://assets/characters/main_cast/henry/henry_act_1.png" id="4_kxd7i"]
 [ext_resource type="Texture2D" uid="uid://7wnw3b4eemeb" path="res://icon.svg" id="5_oaxek"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xtcy0"]
