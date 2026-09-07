@@ -1,0 +1,14 @@
+[gd_resource type="Theme" format=3 uid="uid://cvmefv1s35rup"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_a1ga6"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2xpf7"]
+content_margin_left = 16.0
+content_margin_top = 16.0
+content_margin_right = 16.0
+content_margin_bottom = 16.0
+texture = SubResource("CanvasTexture_a1ga6")
+modulate_color = Color(0.48962224, 0.48962224, 0.48962218, 1)
+
+[resource]
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_2xpf7")
