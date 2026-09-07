@@ -1,11 +1,12 @@
 extends CharacterBody2D
 
-const TILE_SIZE: float = 32.0
+const TILE_SIZE: Vector2 = Vector2(32.0, 32.0)
 const MOVE_SPEED: float = 0.2
 
 var facing_direction: Enums.FacingDirection = Enums.FacingDirection.DOWN:
 	set = set_facing_direction
-var action: Enums.Action = Enums.Action.IDLE
+var action: Enums.Action = Enums.Action.IDLE:
+	set = set_action
 
 var direction_vector: Vector2 = Vector2.DOWN
 
@@ -64,6 +65,14 @@ func set_facing_direction(new_facing_direction: Enums.FacingDirection) -> void:
 	sprite_face_direction()
 
 
+func set_action(new_action: Enums.Action) -> void:
+	# Prevents this setter from trying to access the sprite too early
+	if !is_node_ready():
+		await ready
+	
+	action = new_action
+
+
 func sprite_face_direction() -> void:
 	match facing_direction:
 		Enums.FacingDirection.DOWN:
@@ -77,11 +86,12 @@ func sprite_face_direction() -> void:
 
 
 func play_animation_if_moving() -> void:
-	if action == Enums.Action.MOVING:
-		sprite.speed_scale = 1.0
-	else:
-		sprite.speed_scale = 0.0
-		sprite.frame = 0
+	match action:
+		Enums.Action.IDLE:
+			sprite.speed_scale = 0.0
+			sprite.frame = 0
+		Enums.Action.MOVING:
+			sprite.speed_scale = 1.0
 
 func move_character(dir_vector: Vector2, move_speed: float) -> void:
 	if action == Enums.Action.IDLE:
