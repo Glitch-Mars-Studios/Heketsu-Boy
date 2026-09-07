@@ -3,16 +3,16 @@
 [ext_resource type="Script" uid="uid://df1cu7r0irg21" path="res://pause_menu/scripts/pause_menu.gd" id="1_1xi7f"]
 [ext_resource type="Theme" uid="uid://cvmefv1s35rup" path="res://pause_menu/themes/pause_menu_theme.tres" id="1_32ken"]
 
-[node name="pause_menu" type="CanvasLayer" unique_id=2033958065 node_paths=PackedStringArray("menu_container", "resume_btn", "options_btn", "quit_to_desktop_btn", "confirmation_container", "yes_btn", "no_btn")]
+[node name="PauseMenu" type="CanvasLayer" unique_id=2033958065 node_paths=PackedStringArray("menu_container", "resume_btn", "options_btn", "quit_to_desktop_btn", "confirmation_container", "yes_btn", "no_btn")]
 process_mode = 3
 script = ExtResource("1_1xi7f")
-menu_container = NodePath("CenterContainer/menu")
-resume_btn = NodePath("CenterContainer/menu/btns_container/resume")
-options_btn = NodePath("CenterContainer/menu/btns_container/options")
-quit_to_desktop_btn = NodePath("CenterContainer/menu/btns_container/quit_to_desktop")
-confirmation_container = NodePath("CenterContainer/confirmation")
-yes_btn = NodePath("CenterContainer/confirmation/VBoxContainer/HBoxContainer/yes")
-no_btn = NodePath("CenterContainer/confirmation/VBoxContainer/HBoxContainer/no")
+menu_container = NodePath("CenterContainer/Menu")
+resume_btn = NodePath("CenterContainer/Menu/BtnsContainer/Resume")
+options_btn = NodePath("CenterContainer/Menu/BtnsContainer/Options")
+quit_to_desktop_btn = NodePath("CenterContainer/Menu/BtnsContainer/QuitToDesktop")
+confirmation_container = NodePath("CenterContainer/Confirmation")
+yes_btn = NodePath("CenterContainer/Confirmation/VBoxContainer/HBoxContainer/Yes")
+no_btn = NodePath("CenterContainer/Confirmation/VBoxContainer/HBoxContainer/No")
 
 [node name="CenterContainer" type="CenterContainer" parent="." unique_id=807642743]
 anchors_preset = 15
@@ -21,44 +21,44 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="menu" type="PanelContainer" parent="CenterContainer" unique_id=1166793629]
+[node name="Menu" type="PanelContainer" parent="CenterContainer" unique_id=1166793629]
 layout_mode = 2
 theme = ExtResource("1_32ken")
 
-[node name="btns_container" type="VBoxContainer" parent="CenterContainer/menu" unique_id=2042969864]
+[node name="BtnsContainer" type="VBoxContainer" parent="CenterContainer/Menu" unique_id=2042969864]
 layout_mode = 2
 
-[node name="resume" type="Button" parent="CenterContainer/menu/btns_container" unique_id=172952525]
+[node name="Resume" type="Button" parent="CenterContainer/Menu/BtnsContainer" unique_id=172952525]
 layout_mode = 2
 text = "Resume"
 
-[node name="options" type="Button" parent="CenterContainer/menu/btns_container" unique_id=1490482092]
+[node name="Options" type="Button" parent="CenterContainer/Menu/BtnsContainer" unique_id=1490482092]
 layout_mode = 2
 text = "Options"
 
-[node name="quit_to_desktop" type="Button" parent="CenterContainer/menu/btns_container" unique_id=70918036]
+[node name="QuitToDesktop" type="Button" parent="CenterContainer/Menu/BtnsContainer" unique_id=70918036]
 layout_mode = 2
 text = "Quit to desktop"
 
-[node name="confirmation" type="PanelContainer" parent="CenterContainer" unique_id=82327177]
+[node name="Confirmation" type="PanelContainer" parent="CenterContainer" unique_id=82327177]
 layout_mode = 2
 theme = ExtResource("1_32ken")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer/confirmation" unique_id=2004131108]
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer/Confirmation" unique_id=2004131108]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="CenterContainer/confirmation/VBoxContainer" unique_id=22006391]
+[node name="Label" type="Label" parent="CenterContainer/Confirmation/VBoxContainer" unique_id=22006391]
 layout_mode = 2
 text = "Are you sure you want to exit to desktop"
 
-[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer/confirmation/VBoxContainer" unique_id=2132545101]
+[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer/Confirmation/VBoxContainer" unique_id=2132545101]
 layout_mode = 2
 size_flags_horizontal = 4
 
-[node name="yes" type="Button" parent="CenterContainer/confirmation/VBoxContainer/HBoxContainer" unique_id=1549918887]
+[node name="Yes" type="Button" parent="CenterContainer/Confirmation/VBoxContainer/HBoxContainer" unique_id=1549918887]
 layout_mode = 2
 text = "yes"
 
-[node name="no" type="Button" parent="CenterContainer/confirmation/VBoxContainer/HBoxContainer" unique_id=841710482]
+[node name="No" type="Button" parent="CenterContainer/Confirmation/VBoxContainer/HBoxContainer" unique_id=841710482]
 layout_mode = 2
 text = "No"
