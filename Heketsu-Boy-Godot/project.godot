@@ -13,6 +13,7 @@ config_version=5
 config/name="Heketsu Boy"
 config/description="I will put text here eventually, when I figure out what to say."
 config/version="0.1"
+run/main_scene="uid://c70i3sbolid0d"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
