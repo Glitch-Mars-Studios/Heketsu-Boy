@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ekwn2sbeo2dh"]
+
+[ext_resource type="Script" uid="uid://d16oi6ygtij2" path="res://Memory Chain/follower.gd" id="1_h1xd0"]
+[ext_resource type="Texture2D" uid="uid://7wnw3b4eemeb" path="res://icon.svg" id="2_4nw3v"]
+
+[node name="Follower" type="Node2D" unique_id=394803668]
+script = ExtResource("1_h1xd0")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=64991950]
+texture = ExtResource("2_4nw3v")
