@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="SpeakerData" format=3 uid="uid://c1hjq43v5b4ow"]
+
+[ext_resource type="Script" uid="uid://ckbkrwfpwsyqb" path="res://scripts/systems/dialogue_system/resources/speaker_data.gd" id="1_mw30m"]
+
+[resource]
+script = ExtResource("1_mw30m")
+speaker_name = "Speaker 1"
+metadata/_custom_type_script = "uid://ckbkrwfpwsyqb"
