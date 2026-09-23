@@ -1,10 +1,12 @@
 extends CharacterBody2D
 
 const TILE_SIZE: Vector2 = Vector2(32.0, 32.0)
-const MOVE_SPEED: float = 0.2
+const MOVE_SPEED: float = 0.25
 
 var facing_direction: Enums.FacingDirection = Enums.FacingDirection.DOWN:
 	set = set_facing_direction
+var queued_direction: Enums.FacingDirection = Enums.FacingDirection.NONE
+
 var action: Enums.Action = Enums.Action.IDLE:
 	set = set_action
 
@@ -20,10 +22,21 @@ func _physics_process(_delta: float) -> void:
 	match action:
 		Enums.Action.IDLE:
 			var new_direction: Enums.FacingDirection = get_input_direction()
+			if queued_direction != Enums.FacingDirection.NONE:
+				new_direction = queued_direction
+				queued_direction = Enums.FacingDirection.NONE
+			
 			if new_direction != Enums.FacingDirection.NONE:
 				if new_direction != facing_direction:
 					facing_direction = new_direction
 				move_character(direction_vector, MOVE_SPEED)
+			
+		Enums.Action.MOVING:
+			if queued_direction == Enums.FacingDirection.NONE:
+				queued_direction = get_input_direction()
+				if queued_direction == facing_direction:
+					queued_direction = Enums.FacingDirection.NONE
+			
 	play_animation_if_moving()
 
 
