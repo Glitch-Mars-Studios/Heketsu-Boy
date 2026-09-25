@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://r8ibxmyfjevp"]
 
-[ext_resource type="Script" uid="uid://op1golyd5ytn" path="res://player.gd" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://op1golyd5ytn" path="res://player/player.gd" id="1_4flbx"]
 [ext_resource type="Texture2D" uid="uid://esg4131ikdj6" path="res://assets/characters/main_cast/henry/henry_act_1.png" id="2_onrkg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i3pqv"]

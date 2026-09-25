@@ -1,7 +1,7 @@
 # Using this class to store enums that may need to be accessed from anywhere
 class_name Enums
 
-enum FacingDirection{
+enum FacingDirection {
 	NONE = 0,
 	DOWN,
 	UP,
@@ -9,7 +9,7 @@ enum FacingDirection{
 	RIGHT
 }
 
-enum Action{
+enum Action {
 	IDLE = 0,
 	MOVING,
 }
